@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bank-deposit-app</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
+    <div class="container">
+            <h1>Bank Account Balance</h1>
+            <h2>$1000.00</h2>
+        <div class="nav">
+            <ul>
+                <li><a href="">Deposit</a></li>
+                <li><a href="">Withdraw</a></li>
+                <li><a href="">Transactions</a></li>
+            </ul>
+        </div>
+        <div class="deposit">
+            <h3>Deposit Amount</h3>
+            <input class="numbers" placeholder="0.00">
+        </div>
+        <div class="currency1">
+            <h3>Currency</h3>
+            <select class="currency" id="currency">
+                <option value="">USD</option>
+                <option value="">EUR</option>
+                <option value="">GBP</option>
+                <option value="">NGN</option>
+            </select>  
+       </div>
+       <button id="btn">Deposit</button>
+    </div>
+    <script src="/script/detail.js"></script>
 </body>
 </html>
